@@ -1,0 +1,15 @@
+###
+GET http://localhost:3000/messages
+
+### create
+
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "second there"
+}
+
+### get one
+
+GET http://localhost:3000/messages/1
